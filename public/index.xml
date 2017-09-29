@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>zjq.x-camp.com</title>
-    <link>http://example.org/</link>
-    <description>Recent content on zjq.x-camp.com</description>
+    <title>zjq-x-camp.com</title>
+    <link>/</link>
+    <description>Recent content on zjq-x-camp.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 23 Sep 2015 16:30:37 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>你好，Hugo</title>
-      <link>http://example.org/welcome/</link>
+      <link>/welcome/</link>
       <pubDate>Wed, 23 Sep 2015 16:30:37 +0800</pubDate>
       
-      <guid>http://example.org/welcome/</guid>
+      <guid>/welcome/</guid>
       <description>打发打发打发</description>
     </item>
     
