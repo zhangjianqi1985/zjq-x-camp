@@ -6,6 +6,7 @@ homepage = "https://github.com/alanorth/hugo-theme-bootstrap4"
 tags = ["bootstrap", "blog", "font awesome"]
 features = ["responsive", "blog"]
 min_version = 0.25
+menu = ["main", "footer"]
 
 [author]
   name = "Alan Orth"

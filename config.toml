@@ -1,3 +1,6 @@
-baseURL = "https://github.com/zhangjianqi1985/zjq-x-camp.git"
+baseURL = "/"
 languageCode = "en-us"
-title = "zjq-x-camp.com"
+title = "张建琦的x-camp博客"
+description = "咨询"
+menu = ["main", "footer"]
+SectionPagesMenu = "main"

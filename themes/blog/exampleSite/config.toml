@@ -26,9 +26,9 @@ paginate = 5
 # custom navbar menu entry.   See the custom_navbar parameter below for
 # details.
 
-#[[menu.navbar]]
-#  name = "Link 1"
-#  url = "https://example.org"
+[[menu.navbar]]
+  name = "Link 1"
+  url = "https://example.org"
 
 
 # Theme variables
