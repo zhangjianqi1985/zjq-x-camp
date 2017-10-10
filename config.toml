@@ -1,6 +1,66 @@
-baseURL = "/"
+baseurl = "/"
 languageCode = "en-us"
-title = "张建琦的x-camp博客"
-description = "咨询"
-menu = ["main", "footer"]
-SectionPagesMenu = "main"
+title = "x-camp"
+copyright = "Copyright (c) 2008 - 2017, Steve Francia; all rights reserved."
+canonifyurls = true
+paginate = 3
+theme = "hugo-bootstrap"
+publishDir = "public"
+contentdir = "content"
+disqusShortname = "xxxxxx"
+googleAnalytics = "UA-XXXXXXX-1"
+
+[[menu.main]]
+    name = "RULES"
+    pre = "<i class='fa fa-tags'></i>"
+    weight = -110
+    identifier = "rules"
+    url = "/page/rules"
+
+[[menu.main]]
+    name = "TAGS"
+    pre = "<i class='fa fa-tags'></i>"
+    weight = -110
+    identifier = "tags"
+    url = "/tags/"
+
+[[menu.main]]
+    name = "CATEGORIES"
+    pre = "<i class='fa fa-folder-open'></i>"
+    weight = -100
+    identifier = "categories"
+    url = "/categories/"
+
+[[menu.main]]
+
+    name = "学员名单"
+    pre = "<i class='fa fa-tags'></i>"
+    weight = -110
+    identifier = "namelist"
+    url = "/page/namelist"
+
+[[menu.main]]
+
+    name = "关于我们"
+    pre = "<i class='fa fa-info-circle'></i>"
+    weight = -90
+    identifier = "about-me"
+    url = "/page/about-me"
+
+[[menu.footer]]
+    name = "DISCLAIMER"
+    weight = -110
+    identifier = "disclaimer"
+    url = "/page/disclaimer/"
+
+[[menu.footer]]
+    name = "LICENSE"
+    weight = -120
+    identifier = "license"
+    url = "/page/license/"
+
+[params.widgets]
+  recent_articles = true
+  categories = true
+  tags = true
+  tag_cloud = false

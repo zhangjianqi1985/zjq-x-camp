@@ -1,0 +1,4 @@
+[submodule "x-camp"]
+	path = x-camp.io
+	url = https://github.com/FeiYuejiao/x-camp.git
+	branch = master
